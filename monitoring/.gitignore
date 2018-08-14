@@ -1,1 +1,2 @@
 *.pyc
+monitoring/local_settings.py
