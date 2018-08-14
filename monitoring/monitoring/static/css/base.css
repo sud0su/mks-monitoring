@@ -16,3 +16,68 @@ nav.navbar .brand-logo {
     font-size: 18px;
     color: rgba(0,0,0,0.87);
 }
+
+nav.navbar {
+    z-index: 10;
+    transition: box-shadow .3s, background-color .3s;
+    padding: 0 20px;
+    background-color: #fff;
+    color: rgba(0,0,0,0.87);
+}
+
+.sidenav {
+    box-shadow: none;
+    background-color: #0c56a0;
+}
+
+.sidenav .logo-container {
+    padding: 0 16px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    box-sizing: content-box;
+}
+
+.sidenav .logo-container i.material-icons {
+    line-height: inherit;
+}
+
+.sidenav li {
+    float: none;
+    line-height: 48px;
+}
+
+.sidenav li>a {
+    /* color: rgba(255,255,2555,0.87); */
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+
+.sidenav li>a>i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: inherit;
+    margin: 0 32px 0 0;
+    width: 24px;
+    /* color: rgba(255,255,255,0.54); */
+    color: #fff;
+}
+
+.sidenav .collapsible>li.waves-effect {
+    display: block;
+}
+
+.sidenav .collapsible>li {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: background-color .2s;
+}
+
+.sidenav .collapsible .collapsible-header {
+    text-transform: uppercase;
+    height: 64px;
+    line-height: 64px;
+}
