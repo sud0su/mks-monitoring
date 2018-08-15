@@ -1,0 +1,41 @@
+<ul id="sidenav-left" class="sidenav sidenav-fixed">
+    <li>
+        <a class="logo-container">Admin
+            <i class="material-icons left">spa</i>
+        </a>
+    </li>
+    <li class="no padding">
+        <ul class="collapsible collapsible-accordion">
+            <li class="bold waves-effect active">
+                <a class="collapsible-header" href="{% url "dashboard" %}">
+                    Dashboard
+                    <i class="material-icons ">dashboard</i>
+                </a>
+            </li>
+            <li class="bold waves-effect">
+                <a class="collapsible-header" href="{% url "documents" %}">
+                    Document
+                    <i class="material-icons ">web</i>
+                </a>
+            </li>
+            <li class="bold waves-effect">
+                <a class="collapsible-header" href="{% url "schedule" %}">
+                    Schedule
+                    <i class="material-icons ">list</i>
+                </a>
+            </li>
+            <li class="bold waves-effect">
+                <a class="collapsible-header" href="{% url "report" %}">
+                    Report
+                    <i class="material-icons ">pie_chart</i>
+                </a>
+            </li>
+            <li class="bold waves-effect">
+                <a class="collapsible-header" href="{% url "setting" %}">
+                    Settings
+                    <i class="material-icons ">settings</i>
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>

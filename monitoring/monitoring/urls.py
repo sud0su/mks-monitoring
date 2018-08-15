@@ -19,5 +19,10 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.home),
+    url(r'^$', views.dashboard), 
+    url(r'^dashboard/', views.dashboard, name="dashboard"),
+    url(r'^schedule/', views.schedule, name="schedule"),
+    url(r'^documents/', views.document, name="documents"),
+    url(r'^report/', views.report, name="report"),
+    url(r'^setting/', views.setting, name="setting"),
 ]
