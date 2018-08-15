@@ -2,16 +2,11 @@ body {
     background-color: #f2ecec;
     font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-size: 14px;
-    /* min-height: 100vh; */;
-    /* display: flex;
-    flex-direction: column; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-html, body {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-}
-main {
+ main {
     flex: 1 0 auto;
 }
 .main-color{
@@ -95,5 +90,12 @@ nav.navbar {
 
 .page-footer{
     background-color: #2491eb;
+}
+
+/* ######### dashboard ##########*/
+
+.card .card-value {
+    font-size: 26px;
+    font-weight: 300;
 }
 
