@@ -6,8 +6,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.main-color{
+    background-color: #0c56a0 !important;
+}
 .has-fixed-sidenav {
-    padding-left: 300px;
+    /* padding-left: 300px; */
 }
 
 nav.navbar .brand-logo {
@@ -81,3 +85,8 @@ nav.navbar {
     height: 64px;
     line-height: 64px;
 }
+
+.page-footer{
+    background-color: #2491eb;
+}
+
