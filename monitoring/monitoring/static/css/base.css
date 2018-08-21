@@ -16,6 +16,8 @@ body {
     /* padding-left: 300px; */
 }
 
+/* ##### Navbar, Sidenav */
+
 nav.navbar .brand-logo {
     position: relative;
     float: left;
@@ -99,3 +101,7 @@ nav.navbar {
     font-weight: 300;
 }
 
+/* ##footer */
+.materialize-logo{
+    width: 100px;
+}
